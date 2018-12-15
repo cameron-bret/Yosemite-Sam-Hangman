@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% auto;
+    z-index: -1;
 }
 
 .nameOfGame {
@@ -322,7 +323,89 @@ body {
     position: absolute;
     margin: auto;
     top: 0;
-    right: 20;
+    right: 1050px;
     bottom: 0;
     left: 0;
+    z-index: 2;
+}
+
+#alphabetLetterA {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    right: 100px;
+}
+
+#alphabetLetterB {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    right: 40px;
+}
+
+#alphabetLetterC {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    left: 10px;
+}
+
+#alphabetLetterD {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    left: 70px;
+}
+
+#alphabetLetterE {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    left: 130px;
+}
+
+#alphabetLetterF {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    left: 200px;
+}
+
+#alphabetLetterG {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    left: 270px;
+}
+
+#alphabetLetterH {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    top: 468px;
+    left: 340px;
+}
+
+#alphabetLetterI {
+    position: absolute;
+    height: 38px;
+    width: 24px;
+    margin: 10px;
+    top: 468px;
+    left: 410px;
 }
