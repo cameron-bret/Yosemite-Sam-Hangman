@@ -317,25 +317,29 @@ body {
 
 .alphabetLetters {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 3%;
+    min-width: 3%;
     max-height: 5%;
+    min-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
-    top: 0;
+    top: 970px;
     right: 1050px;
     bottom: 0;
     left: 0;
     z-index: 2;
 }
 
-#alphabetLetterA {
+/* #alphabetLetterA {
     position: absolute;
     height: 30px;
     width: 30px;
     margin: 1px;
     top: 489px;
-    right: 100px;
+    right: 135px;
 }
 
 #alphabetLetterB {
@@ -344,7 +348,7 @@ body {
     width: 30px;
     margin: 1px;
     top: 489px;
-    right: 40px;
+    right: 80px;
 }
 
 #alphabetLetterC {
@@ -353,7 +357,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 10px;
+    right: 12px;
 }
 
 #alphabetLetterD {
@@ -362,7 +366,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 70px;
+    left: 42px;
 }
 
 #alphabetLetterE {
@@ -371,7 +375,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 130px;
+    left: 96px;
 }
 
 #alphabetLetterF {
@@ -380,7 +384,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 200px;
+    left: 150px;
 }
 
 #alphabetLetterG {
@@ -389,7 +393,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 270px;
+    left: 199px;
 }
 
 #alphabetLetterH {
@@ -398,16 +402,16 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 340px;
+    left: 244px;
 }
 
 #alphabetLetterI {
     position: absolute;
     height: 30px;
-    width: 22px;
+    width: 20px;
     margin: 10px;
     top: 480px;
-    left: 410px;
+    left: 271px;
 }
 
 #alphabetLetterJ {
@@ -416,7 +420,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 480px;
+    left: 314px;
 }
 
 #alphabetLetterK {
@@ -425,7 +429,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 560px;
+    left: 361px;
 }
 
 #alphabetLetterL {
@@ -434,7 +438,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 630px;
+    left: 400px;
 }
 
 #alphabetLetterM {
@@ -443,7 +447,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 700px;
+    left: 445px;
 }
 
 #alphabetLetterN {
@@ -452,7 +456,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 770px;
+    left: 490px;
 }
 
 #alphabetLetterO {
@@ -461,7 +465,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 840px;
+    left: 535px;
 }
 
 #alphabetLetterP {
@@ -470,7 +474,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 910px;
+    left: 580px;
 }
 
 #alphabetLetterP {
@@ -479,7 +483,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 910px;
+    left: 580px;
 }
 
 #alphabetLetterQ {
@@ -488,7 +492,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 980px;
+    left: 625px;
 }
 
 #alphabetLetterR {
@@ -497,7 +501,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1050px;
+    left: 670px;
 }
 
 #alphabetLetterS {
@@ -506,7 +510,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1120px;
+    left: 715px;
 }
 
 #alphabetLetterT {
@@ -515,7 +519,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1190px;
+    left: 760px;
 }
 
 #alphabetLetterU {
@@ -524,7 +528,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1260px;
+    left: 805px;
 }
 
 #alphabetLetterV {
@@ -533,7 +537,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1330px;
+    left: 850px;
 }
 
 #alphabetLetterW {
@@ -542,7 +546,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1400px;
+    left: 895px;
 }
 
 #alphabetLetterX {
@@ -551,7 +555,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1470px;
+    left: 940px;
 }
 
 #alphabetLetterY {
@@ -560,7 +564,7 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1530px;
+    left: 985px;
 }
 
 #alphabetLetterZ {
@@ -569,5 +573,5 @@ body {
     width: 30px;
     margin: 10px;
     top: 480px;
-    left: 1600px;
-}
+    left: 1030px;
+} */
