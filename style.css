@@ -1,3 +1,76 @@
-header {
-    color: red
+body {
+    background-image: url('images/background/desert_backdrop_final.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% auto;
+}
+
+.nameOfGame {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hangingStructure {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.yosemiteSam_winning {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.yosemiteSam_losing {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.scoreboard {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.correctLetters {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.alphabetLetters {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
