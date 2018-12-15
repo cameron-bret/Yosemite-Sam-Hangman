@@ -247,20 +247,8 @@ body {
 
 .correctLetters {
     display: flex;
-    max-width: 5%;
-    max-height: 5%;
-    opacity: 1;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 20;
-    bottom: 0;
-    left: 0;
-}
-
-.alphabetLettersContainer {
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 2%;
+    max-height: 2%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -268,6 +256,62 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+#correctLetterP {
+    position: absolute;
+    margin: 10px;
+    top: 350px;
+    right: 539px;
+}
+
+#correctLetterI {
+    position: absolute;
+    margin: 10px;
+    top: 350px;
+    right: 400px;
+}
+
+#correctLetterS {
+    position: absolute;
+    margin: 10px;
+    top: 350px;
+    right: 300px;
+}
+
+#correctLetterT {
+    position: absolute;
+    margin: 10px;
+    top: 350px;
+    right: 170px;
+}
+
+#correctLetterO {
+    position: absolute;
+    margin: 10px;
+    top: 350px;
+    right: 40px;
+}
+
+#correctLetterL {
+    position: absolute;
+    margin: 10px;
+    top: 350px;
+    left: 60px;
+}
+
+.alphabetLettersContainer {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    padding: 20px;
+    top: 830px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .alphabetLetters {
