@@ -16,16 +16,22 @@ body {
 }
 
 .hangingStructure {
+    display: flex;
+    max-width: 50%;
+    max-height: 75%;
     opacity: 1;
     position: absolute;
     margin: auto;
     top: 0;
-    right: 0;
+    right: 20;
     bottom: 0;
     left: 0;
 }
 
 .yosemiteSam_winning {
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -36,6 +42,9 @@ body {
 }
 
 .yosemiteSam_losing {
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -46,6 +55,8 @@ body {
 }
 
 .scoreboard {
+    max-width: 50%;
+    max-height: 50%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -56,6 +67,8 @@ body {
 }
 
 .correctLetters {
+    max-width: 50%;
+    max-height: 50%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -65,7 +78,9 @@ body {
     left: 0;
 }
 
-.alphabetLetters {
+.alphabetLettersContainer {
+    max-width: 50%;
+    max-height: 50%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -73,4 +88,10 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+#alphabetLetters {
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
 }
