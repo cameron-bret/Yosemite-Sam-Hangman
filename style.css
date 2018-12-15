@@ -58,14 +58,14 @@ body {
     left: 470px;
 }
 
-#hangingRope3 {
+/* #hangingRope3 {
     max-width: 10%;
     max-height: 10%;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-}
+} */
 
 .yosemiteSam_winning {
     display: flex;
@@ -78,6 +78,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 
 .winningSpeechBubble {
@@ -125,8 +126,8 @@ body {
 
 #losingRightLeg {
     position: absolute;
-    max-width: 7.5%;
-    max-height: 7.5%;
+    max-width: 50%;
+    height: auto;
     top: 482px;
     right: 0;
     bottom: 0;
@@ -135,8 +136,8 @@ body {
 
 #losingLeftLeg {
     position: absolute;
-    max-width: 7.5%;
-    max-height: 7.5%;
+    max-width: 50%;
+    height: auto;
     top: 482px;
     right: 0;
     bottom: 0;
@@ -144,25 +145,30 @@ body {
 }
 
 #losingRightArm {
-    top: 0;
-    right: 30;
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    top: 482px;
+    right: 0;
     bottom: 0;
-    left: 0;
+    left: 480px;
 }
 
 #losingLeftArm {
-    top: 0;
-    right: 30;
+    max-width: 50%;
+    height: auto;
+    top: 482px;
+    right: 0;
     bottom: 0;
-    left: 0;
+    left: 480px;
 }
 
-#losingHead {
+/* #losingHead {
     top: 0;
     right: 30;
     bottom: 0;
     left: 0;
-}
+} */
 
 .losingSpeechBubble {
     display: flex;
@@ -178,6 +184,7 @@ body {
 }
 
 .scoreboardContainer {
+    display: block;
     max-width: 5%;
     max-height: 5%;
     opacity: 1;
@@ -185,21 +192,33 @@ body {
     margin: auto;
     top: 0;
     right: 0;
-    bottom: 0;
-    left: 0;
+    bottom: 490px;
+    left: 760px;
+}
+
+#numberOfWinsContainer {
+    margin: 10px;
+}
+
+#numberOfLosesContainer {
+    margin: 10px;
+}
+
+#numberOfWrongContainer {
+    margin: 10px;
 }
 
 .scoreboardText {
-    display: flex;
+    display: block;
     max-width: 5%;
     max-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
     top: 0;
-    right: 20;
-    bottom: 0;
-    left: 0;
+    right: 0;
+    bottom: 490px;
+    left: 760px;
 }
 
 .correctLettersContainer {
