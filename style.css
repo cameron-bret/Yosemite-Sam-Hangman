@@ -8,7 +8,7 @@ body {
 .nameOfGame {
     opacity: 1;
     position: absolute;
-    margin: auto;
+    margin: 30px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -17,8 +17,73 @@ body {
 
 .hangingStructure {
     display: flex;
-    max-width: 50%;
-    max-height: 75%;
+    max-width: 48%;
+    max-height: 81%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    right: 480px;
+    bottom: 0;
+    left: 0;
+}
+
+.hangingRope {
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#hangingRope1 {
+    max-width: 24%;
+    max-height: 24%;
+    position: absolute;
+    top: 229px;
+    right: 0;
+    bottom: 0;
+    left: 435px;
+}
+
+#hangingRope2 {
+    max-width: 7%;
+    max-height: 7%;
+    position: absolute;
+    top: 171px;
+    right: 0;
+    bottom: 0;
+    left: 470px;
+}
+
+#hangingRope3 {
+    max-width: 10%;
+    max-height: 10%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.yosemiteSam_winning {
+    display: flex;
+    max-width: 5%;
+    max-height: 5%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.winningSpeechBubble {
+    display: flex;
+    max-width: 5%;
+    max-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -28,23 +93,93 @@ body {
     left: 0;
 }
 
-.yosemiteSam_winning {
-    display: flex;
-    max-width: 50%;
-    max-height: 50%;
-    opacity: 1;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
 .yosemiteSam_losing {
-    display: flex;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 30;
+    bottom: 0;
+    left: 0;
+}
+
+#losingBody {
+    position: absolute;
     max-width: 50%;
     max-height: 50%;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    left: 338px;
+}
+
+#losingTorso {
+    position: absolute;
+    max-width: 15%;
+    max-height: 15%;
+    top: 422px;
+    right: 0;
+    bottom: 0;
+    left: 422px;
+}
+
+#losingRightLeg {
+    position: absolute;
+    max-width: 7.5%;
+    max-height: 7.5%;
+    top: 482px;
+    right: 0;
+    bottom: 0;
+    left: 480px;
+}
+
+#losingLeftLeg {
+    position: absolute;
+    max-width: 7.5%;
+    max-height: 7.5%;
+    top: 482px;
+    right: 0;
+    bottom: 0;
+    left: 480px;
+}
+
+#losingRightArm {
+    top: 0;
+    right: 30;
+    bottom: 0;
+    left: 0;
+}
+
+#losingLeftArm {
+    top: 0;
+    right: 30;
+    bottom: 0;
+    left: 0;
+}
+
+#losingHead {
+    top: 0;
+    right: 30;
+    bottom: 0;
+    left: 0;
+}
+
+.losingSpeechBubble {
+    display: flex;
+    max-width: 5%;
+    max-height: 5%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 20;
+    bottom: 0;
+    left: 0;
+}
+
+.scoreboardContainer {
+    max-width: 5%;
+    max-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -54,9 +189,22 @@ body {
     left: 0;
 }
 
-.scoreboard {
-    max-width: 50%;
-    max-height: 50%;
+.scoreboardText {
+    display: flex;
+    max-width: 5%;
+    max-height: 5%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 20;
+    bottom: 0;
+    left: 0;
+}
+
+.correctLettersContainer {
+    max-width: 5%;
+    max-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -67,20 +215,21 @@ body {
 }
 
 .correctLetters {
-    max-width: 50%;
-    max-height: 50%;
+    display: flex;
+    max-width: 5%;
+    max-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
     top: 0;
-    right: 0;
+    right: 20;
     bottom: 0;
     left: 0;
 }
 
 .alphabetLettersContainer {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 5%;
+    max-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -90,8 +239,15 @@ body {
     left: 0;
 }
 
-#alphabetLetters {
+.alphabetLetters {
     display: flex;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 3%;
+    max-height: 5%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 20;
+    bottom: 0;
+    left: 0;
 }
