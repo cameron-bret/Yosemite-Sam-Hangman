@@ -331,26 +331,26 @@ body {
 
 #alphabetLetterA {
     position: absolute;
-    height: 38px;
-    width: 38px;
-    margin: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 1px;
     top: 468px;
     right: 100px;
 }
 
 #alphabetLetterB {
     position: absolute;
-    height: 38px;
-    width: 38px;
-    margin: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 1px;
     top: 468px;
     right: 40px;
 }
 
 #alphabetLetterC {
     position: absolute;
-    height: 38px;
-    width: 38px;
+    height: 30px;
+    width: 30px;
     margin: 10px;
     top: 468px;
     left: 10px;
@@ -358,8 +358,8 @@ body {
 
 #alphabetLetterD {
     position: absolute;
-    height: 38px;
-    width: 38px;
+    height: 30px;
+    width: 30px;
     margin: 10px;
     top: 468px;
     left: 70px;
@@ -367,8 +367,8 @@ body {
 
 #alphabetLetterE {
     position: absolute;
-    height: 38px;
-    width: 38px;
+    height: 30px;
+    width: 30px;
     margin: 10px;
     top: 468px;
     left: 130px;
@@ -376,8 +376,8 @@ body {
 
 #alphabetLetterF {
     position: absolute;
-    height: 38px;
-    width: 38px;
+    height: 30px;
+    width: 30px;
     margin: 10px;
     top: 468px;
     left: 200px;
@@ -385,8 +385,8 @@ body {
 
 #alphabetLetterG {
     position: absolute;
-    height: 38px;
-    width: 38px;
+    height: 30px;
+    width: 30px;
     margin: 10px;
     top: 468px;
     left: 270px;
@@ -394,8 +394,8 @@ body {
 
 #alphabetLetterH {
     position: absolute;
-    height: 38px;
-    width: 38px;
+    height: 30px;
+    width: 30px;
     margin: 10px;
     top: 468px;
     left: 340px;
@@ -403,9 +403,171 @@ body {
 
 #alphabetLetterI {
     position: absolute;
-    height: 38px;
-    width: 24px;
+    height: 30px;
+    width: 22px;
     margin: 10px;
     top: 468px;
     left: 410px;
+}
+
+#alphabetLetterJ {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 480px;
+}
+
+#alphabetLetterK {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 560px;
+}
+
+#alphabetLetterL {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 630px;
+}
+
+#alphabetLetterM {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 700px;
+}
+
+#alphabetLetterN {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 770px;
+}
+
+#alphabetLetterO {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 840px;
+}
+
+#alphabetLetterP {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 910px;
+}
+
+#alphabetLetterP {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 910px;
+}
+
+#alphabetLetterQ {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 980px;
+}
+
+#alphabetLetterR {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1050px;
+}
+
+#alphabetLetterS {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1120px;
+}
+
+#alphabetLetterT {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1190px;
+}
+
+#alphabetLetterU {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1260px;
+}
+
+#alphabetLetterV {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1330px;
+}
+
+#alphabetLetterW {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1400px;
+}
+
+#alphabetLetterX {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1470px;
+}
+
+#alphabetLetterY {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1530px;
+}
+
+#alphabetLetterZ {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    top: 468px;
+    left: 1600px;
 }
