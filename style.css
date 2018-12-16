@@ -274,27 +274,42 @@ body {
 
 .scoreboardText {
     display: block;
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 8%;
+    max-height: 8%;
     opacity: 1;
     position: absolute;
     margin: auto;
     top: 0;
     right: 0;
-    bottom: 490px;
+    bottom: 510px;
     left: 960px;
 }
 
 #numberOfWinsText {
-    margin: 50px;
+    position: absolute;
+    margin: 47px;
+    top: 2px;
+    right: 0;
+    bottom: 0;
+    left: -17px;
 }
 
 #numberOfLosesText {
-    margin: 50px;
+    position: absolute;
+    margin: 47px;
+    top: 77px;
+    right: 0;
+    bottom: 0;
+    left: -7px;
 }
 
 #numberOfWrongText {
-    margin: 50px;
+    position: absolute;
+    margin: 47px;
+    top: 155px;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .correctLettersContainer {
