@@ -248,8 +248,10 @@ body {
 
 .correctLetters {
     display: flex;
-    max-width: 2%;
-    max-height: 2%;
+    max-width: 3%;
+    min-width: 3%;
+    max-height: 5%;
+    min-height: 5%;
     opacity: 1;
     position: absolute;
     margin: auto;
@@ -262,43 +264,43 @@ body {
 #correctLetterP {
     position: absolute;
     margin: 10px;
-    top: 350px;
+    top: 365px;
     right: 539px;
 }
 
 #correctLetterI {
     position: absolute;
     margin: 10px;
-    top: 350px;
-    right: 400px;
+    top: 365px;
+    right: 417px;
 }
 
 #correctLetterS {
     position: absolute;
     margin: 10px;
-    top: 350px;
-    right: 300px;
+    top: 365px;
+    right: 293px;
 }
 
 #correctLetterT {
     position: absolute;
     margin: 10px;
-    top: 350px;
-    right: 170px;
+    top: 365px;
+    right: 167px;
 }
 
 #correctLetterO {
     position: absolute;
     margin: 10px;
-    top: 350px;
-    right: 40px;
+    top: 365px;
+    right: 42px;
 }
 
 #correctLetterL {
     position: absolute;
     margin: 10px;
-    top: 350px;
-    left: 60px;
+    top: 365px;
+    left: 64px;
 }
 
 .alphabetLettersContainer {
