@@ -114,19 +114,19 @@ body {
 
 .yosemiteSam_losing {
     display: flex;
-    height: 530px;
-    width: 250px;
+    height: 580px;
+    width: 1050px;
     min-width: 10%;
     min-height: 10%;
-    max-width: 45%;
-    max-height: 35%;
+    max-width: 85%;
+    max-height: 85%;
     opacity: 1;
     position: absolute;
     margin: auto;
-    top: 350px;
-    right: 900px;
-    bottom: 0;
-    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 200px;
+    left: -401px;
     z-index: 1;
 }
 
