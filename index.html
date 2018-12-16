@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hangman</title>
+    <title>Yosemite Sam Hangman</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/wka5thv.css">
     <link rel="stylesheet" href="style.css">
     <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -61,7 +62,10 @@
         <img class="img-responsive" id="numberOfWrongContainer" src="images/scoreboard/incorrectGuess_container.png"
             alt="number of incorrect guesses">
     </aside>
-    <aside class="scoreboardText">
+    <aside>
+        <input type="number" id="wrongAmount" value="0" />
+    </aside>
+    <aside class=" scoreboardText">
         <img class="img-responsive" id="numberOfWinsText" src="images/scoreboard/wins.png" alt="text wins">
         <img class="img-responsive" id="numberOfLosesText" src="images/scoreboard/loses.png" alt="text loses">
         <img class="img-responsive" id="numberOfWrongText" src="images/scoreboard/wrong.png" alt="text wrong">

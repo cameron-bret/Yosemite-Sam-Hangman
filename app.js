@@ -150,3 +150,22 @@ $("#losingRightLeg").hide()
 $("#losingLeftLeg").hide()
 $(".losingSpeechBubble").hide()
 $(".losingSpeechText").hide()
+
+let wrongAmount = 0
+let wrongLetters = $("#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD")
+console.log($('wrongLetters'))
+
+// $('.alphabetLetters').on('click', function (event) {
+//     event.preventDefault()
+//     wrongAmount = $('input').val()
+//     wrongTotal = wrongTotal + (wrongAmount)
+//     $('#currentAmount').html(wrongTotal)
+// })
+
+// function increaseValue() {
+//     let value = $('#wrongAmount').value
+//     value = isNaN(value) ? 0 : value;
+//     value++;
+//     $('#wrongAmount').value = value;
+//     console.log($('#wrongAmount'))
+// }
