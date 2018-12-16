@@ -1,7 +1,7 @@
 $("#correctLetterP").hide()
 
 $("#alphabetLetterP").on('click', function () {
-    $("#correctLetterP").show()
+    $("#correctLetterP").fadeIn()
 })
 
 $("#alphabetLetterP").on('click', function () {
@@ -11,7 +11,7 @@ $("#alphabetLetterP").on('click', function () {
 $("#correctLetterI").hide()
 
 $("#alphabetLetterI").on('click', function () {
-    $("#correctLetterI").show()
+    $("#correctLetterI").fadeIn()
 })
 
 $("#alphabetLetterI").on('click', function () {
@@ -21,7 +21,7 @@ $("#alphabetLetterI").on('click', function () {
 $("#correctLetterS").hide()
 
 $("#alphabetLetterS").on('click', function () {
-    $("#correctLetterS").show()
+    $("#correctLetterS").fadeIn()
 })
 
 $("#alphabetLetterS").on('click', function () {
@@ -31,7 +31,7 @@ $("#alphabetLetterS").on('click', function () {
 $("#correctLetterT").hide()
 
 $("#alphabetLetterT").on('click', function () {
-    $("#correctLetterT").show()
+    $("#correctLetterT").fadeIn()
 })
 
 $("#alphabetLetterT").on('click', function () {
@@ -41,7 +41,7 @@ $("#alphabetLetterT").on('click', function () {
 $("#correctLetterO").hide()
 
 $("#alphabetLetterO").on('click', function () {
-    $("#correctLetterO").show()
+    $("#correctLetterO").fadeIn()
 })
 
 $("#alphabetLetterO").on('click', function () {
@@ -51,7 +51,7 @@ $("#alphabetLetterO").on('click', function () {
 $("#correctLetterL").hide()
 
 $("#alphabetLetterL").on('click', function () {
-    $("#correctLetterL").show()
+    $("#correctLetterL").fadeIn()
 })
 
 $("#alphabetLetterL").on('click', function () {
@@ -137,3 +137,14 @@ $("#alphabetLetterY").on('click', function () {
 $("#alphabetLetterZ").on('click', function () {
     $("#alphabetLetterZ").hide()
 })
+
+$(".yosemiteSam_winning").hide()
+$(".winningSpeechBubble").hide()
+$(".winningSpeechText").hide()
+
+// $("#losingBody").hide()
+$("#losingTorso").hide()
+$("#losingRightArm").hide()
+$("#losingLeftArm").hide()
+$("#losingRightLeg").hide()
+$("#losingLeftLeg").hide()

@@ -88,26 +88,66 @@ body {
 
 .winningSpeechBubble {
     display: flex;
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 18%;
+    max-height: 18%;
     opacity: 1;
     position: absolute;
     margin: auto;
-    top: 0;
-    right: 20;
+    top: 180px;
+    right: 380px;
+    bottom: 0;
+    left: 0;
+}
+
+.winningSpeechText {
+    display: flex;
+    max-width: 12%;
+    max-height: 12%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 186px;
+    right: 343px;
     bottom: 0;
     left: 0;
 }
 
 .yosemiteSam_losing {
+    display: flex;
+    height: 530px;
+    width: 250px;
+    min-width: 10%;
+    min-height: 10%;
+    max-width: 45%;
+    max-height: 35%;
     opacity: 1;
     position: absolute;
     margin: auto;
-    top: 0;
-    right: 30;
+    top: 350px;
+    right: 900px;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
+
+.yosemiteSam_losingBodyParts {
+    display: flex;
+    height: 530px;
+    width: 250px;
+    min-width: 10%;
+    min-height: 10%;
+    max-width: 45%;
+    max-height: 35%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 350px;
+    right: 900px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
 
 #losingBody {
     position: absolute;
@@ -176,6 +216,19 @@ body {
 } */
 
 .losingSpeechBubble {
+    display: flex;
+    max-width: 5%;
+    max-height: 5%;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 20;
+    bottom: 0;
+    left: 0;
+}
+
+.losingSpeechText {
     display: flex;
     max-width: 5%;
     max-height: 5%;
