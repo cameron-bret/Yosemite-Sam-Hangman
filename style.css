@@ -161,51 +161,57 @@ body {
 
 #losingTorso {
     position: absolute;
-    max-width: 15%;
-    max-height: 15%;
-    top: 422px;
+    max-width: 10%;
+    max-height: 10%;
+    top: 454px;
     right: 0;
     bottom: 0;
-    left: 422px;
+    left: 434px;
+    z-index: 1;
 }
 
 #losingRightLeg {
     position: absolute;
-    max-width: 50%;
-    height: auto;
-    top: 482px;
+    max-width: 7.6%;
+    max-height: 7.6%;
+    top: 502px;
     right: 0;
     bottom: 0;
-    left: 480px;
+    left: 476px;
+    z-index: 1;
 }
 
 #losingLeftLeg {
     position: absolute;
-    max-width: 50%;
-    height: auto;
-    top: 482px;
+    max-width: 7.6%;
+    max-height: 7.6%;
+    top: 502px;
     right: 0;
     bottom: 0;
-    left: 480px;
+    left: 418px;
+    z-index: 1;
 }
 
 #losingRightArm {
     position: absolute;
-    max-width: 50%;
-    height: auto;
-    top: 482px;
+    max-width: 17%;
+    max-height: 17%;
+    top: 363px;
     right: 0;
     bottom: 0;
-    left: 480px;
+    left: 517px;
+    z-index: 1;
 }
 
 #losingLeftArm {
-    max-width: 50%;
-    height: auto;
-    top: 482px;
+    position: absolute;
+    max-width: 18%;
+    max-height: 18%;
+    top: 362px;
     right: 0;
     bottom: 0;
-    left: 480px;
+    left: 332px;
+    z-index: 1;
 }
 
 /* #losingHead {
@@ -217,28 +223,28 @@ body {
 
 .losingSpeechBubble {
     display: flex;
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 18%;
+    max-height: 18%;
     opacity: 1;
     position: absolute;
     margin: auto;
     top: 0;
-    right: 20;
-    bottom: 0;
+    right: 0;
+    bottom: 240px;
     left: 0;
 }
 
 .losingSpeechText {
     display: flex;
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 12%;
+    max-height: 12%;
     opacity: 1;
     position: absolute;
     margin: auto;
     top: 0;
-    right: 20;
-    bottom: 0;
-    left: 0;
+    right: 0;
+    bottom: 250px;
+    left: 30px;
 }
 
 .scoreboardContainer {
