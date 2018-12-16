@@ -138,6 +138,7 @@ $("#alphabetLetterZ").on('click', function () {
     $("#alphabetLetterZ").hide()
 })
 
+
 $(".yosemiteSam_winning").hide()
 $(".winningSpeechBubble").hide()
 $(".winningSpeechText").hide()
@@ -152,8 +153,9 @@ $(".losingSpeechBubble").hide()
 $(".losingSpeechText").hide()
 
 let wrongAmount = 0
-let wrongLetters = $("#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD")
-console.log($('wrongLetters'))
+let wrongLetters = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
+let bodyParts = ["#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
+
 
 // $('.alphabetLetters').on('click', function (event) {
 //     event.preventDefault()
