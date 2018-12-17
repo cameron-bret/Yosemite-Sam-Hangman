@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% auto;
+    height: 100vh;
     z-index: -1;
 }
 

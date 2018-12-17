@@ -153,9 +153,11 @@ $("#losingLeftLeg").hide()
 // $(".losingSpeechText").hide()
 
 let wrongAmount = 0
+let correctAmount = 0
 let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
 let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
 let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
+let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", "#.winningSpeechText"]
 // let finalLosingArray = ["#losingBody", "#losingSpeechBubble", "#losingSpeechText"]
 
 function countWrongGuesses() {
@@ -173,15 +175,30 @@ function countWrongGuesses() {
     })
 }
 
+function countCorrectGuesses() {
+    let correctLettersSelectors = correctLettersArray.join(', ')
+    $(correctLettersSelectors).on('click', function () {
+        if (correctAmount === 5) {
+            alert("You win!")
+            location.reload()
+        }
+        correctAmount++
+        $('#correctCounter').text(correctAmount)
+    })
+}
+
 function hideBodyParts() {
     let bodyPartsSelector = bodyPartsArray.join(', ')
     $(bodyPartsSelector).hide()
 }
 
 $(document).ready(function () {
-    hideBodyParts()
+    countCorrectGuesses()
     countWrongGuesses()
+    hideBodyParts()
 })
+
+console.log(wrongAmount)
 
 //if a wrong letter is clicked show one of the body parts at random
 //remove from list so it cannot repeat
