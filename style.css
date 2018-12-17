@@ -148,7 +148,6 @@ body {
     z-index: 1;
 }
 
-
 #losingBody {
     position: absolute;
     max-width: 50%;
@@ -223,7 +222,6 @@ body {
     bottom: 0;
     left: 0;
 } */
-
 
 .losingSpeechBubble {
     display: flex;
