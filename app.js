@@ -153,21 +153,23 @@ $(".losingSpeechBubble").hide()
 $(".losingSpeechText").hide()
 
 let wrongAmount = 0
-let wrongLetters = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
-let bodyParts = ["#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
+let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
+let bodyPartsArray = ["#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
+let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
+
+//when a wrong letter is clicked show one of the body parts at random
+//remove from list so it cannot repeat
+//add 1 to the wrong amount
 
 
-// $('.alphabetLetters').on('click', function (event) {
-//     event.preventDefault()
-//     wrongAmount = $('input').val()
-//     wrongTotal = wrongTotal + (wrongAmount)
-//     $('#currentAmount').html(wrongTotal)
-// })
 
-// function increaseValue() {
-//     let value = $('#wrongAmount').value
-//     value = isNaN(value) ? 0 : value;
-//     value++;
-//     $('#wrongAmount').value = value;
-//     console.log($('#wrongAmount'))
+
+
+
+
+
+// function wrongGuess() {
+//     $(wrongLettersArray).on('click', function () {
+//         $(bodyParts).show()
+//     })
 // }
