@@ -2,7 +2,7 @@ let wrongAmount = 0
 let correctAmount = 0
 let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
 let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
-let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
+let correctLettersArray = ["#alphabetLetterP", "#alphabetLetterI", "#alphabetLetterS", "#alphabetLetterT", "#alphabetLetterO", "#alphabetLetterL"]
 let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", "#.winningSpeechText"]
 // let finalLosingArray = ["#losingBody", "#losingSpeechBubble", "#losingSpeechText"]
 
@@ -168,7 +168,6 @@ function countWrongGuesses() {
         $(bodyPart).fadeIn()
         if (wrongAmount === 6) {
             alert("So sad, too bad, you lost, click OK to try again!")
-            location.reload()
         }
         wrongAmount++
         $('#wrongCounter').text(wrongAmount)
@@ -178,9 +177,10 @@ function countWrongGuesses() {
 function countCorrectGuesses() {
     let correctLettersSelectors = correctLettersArray.join(', ')
     $(correctLettersSelectors).on('click', function () {
-        if (correctAmount === 6) {
-            alert("You win!")
-            location.reload()
+        if (correctAmount === 5) {
+            $(".yosemiteSam_winning").fadeIn()
+            $(".winningSpeechText").fadeIn()
+            $(".winningSpeechBubble").fadeIn()
         }
         correctAmount++
         $('#correctCounter').text(correctAmount)
