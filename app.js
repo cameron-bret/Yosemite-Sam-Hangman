@@ -156,25 +156,30 @@ let wrongAmount = 0
 let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
 let bodyPartsArray = ["#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
 let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
+let finalLosingScreen = ["#losingBody", "#losingSpeechBubble", "#losingSpeechText"]
 
-function watchForWrongGuesses() {
+function countWrongGuesses() {
     let wrongLettersSelectors = wrongLettersArray.join(', ')
     $(wrongLettersSelectors).on('click', function () {
         let bodyPart = bodyPartsArray.pop()
-        $(bodyPart).show()
+        $(bodyPart).fadeIn()
+        if (wrongAmount === 6) {
+            alert("you lose")
+            location.reload()
+        }
         wrongAmount++
         $('#wrongCounter').text(wrongAmount)
     })
 }
 
-function hideAllBodyParts() {
+function hideBodyParts() {
     let bodyPartsSelector = bodyPartsArray.join(', ')
     $(bodyPartsSelector).hide()
 }
 
 $(document).ready(function () {
-    hideAllBodyParts()
-    watchForWrongGuesses()
+    hideBodyParts()
+    countWrongGuesses()
 })
 
 //if a wrong letter is clicked show one of the body parts at random
