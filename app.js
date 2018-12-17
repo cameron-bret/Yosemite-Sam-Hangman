@@ -149,12 +149,12 @@ $("#losingRightArm").hide()
 $("#losingLeftArm").hide()
 $("#losingRightLeg").hide()
 $("#losingLeftLeg").hide()
-$(".losingSpeechBubble").hide()
-$(".losingSpeechText").hide()
+// $(".losingSpeechBubble").hide()
+// $(".losingSpeechText").hide()
 
 let wrongAmount = 0
 let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
-let bodyPartsArray = ["#losingBody", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
+let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
 let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
 // let finalLosingArray = ["#losingBody", "#losingSpeechBubble", "#losingSpeechText"]
 

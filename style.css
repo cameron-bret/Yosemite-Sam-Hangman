@@ -158,6 +158,28 @@ body {
     left: 338px;
 }
 
+/* #losingBodyAlternate {
+    position: absolute;
+    max-width: 35%;
+    max-height: 35%;
+    top: 263px;
+    right: 0;
+    bottom: 0;
+    left: 363px;
+    z-index: 2;
+} */
+
+#losingBodyAlternate2 {
+    position: absolute;
+    max-width: 39%;
+    max-height: 39%;
+    top: 230px;
+    right: 0;
+    bottom: 0;
+    left: 364px;
+    z-index: 2;
+}
+
 #losingTorso {
     position: absolute;
     max-width: 10%;
