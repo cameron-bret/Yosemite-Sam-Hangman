@@ -1,3 +1,11 @@
+let wrongAmount = 0
+let correctAmount = 0
+let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
+let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
+let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
+let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", "#.winningSpeechText"]
+// let finalLosingArray = ["#losingBody", "#losingSpeechBubble", "#losingSpeechText"]
+
 $("#correctLetterP").hide()
 
 $("#alphabetLetterP").on('click', function () {
@@ -152,14 +160,6 @@ $("#losingLeftLeg").hide()
 // $(".losingSpeechBubble").hide()
 // $(".losingSpeechText").hide()
 
-let wrongAmount = 0
-let correctAmount = 0
-let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
-let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
-let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
-let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", "#.winningSpeechText"]
-// let finalLosingArray = ["#losingBody", "#losingSpeechBubble", "#losingSpeechText"]
-
 function countWrongGuesses() {
     let wrongLettersSelectors = wrongLettersArray.join(', ')
     // let LosingScreen = finalLosingArray.join(', ')
@@ -178,7 +178,7 @@ function countWrongGuesses() {
 function countCorrectGuesses() {
     let correctLettersSelectors = correctLettersArray.join(', ')
     $(correctLettersSelectors).on('click', function () {
-        if (correctAmount === 5) {
+        if (correctAmount === 6) {
             alert("You win!")
             location.reload()
         }
@@ -199,6 +199,7 @@ $(document).ready(function () {
 })
 
 console.log(wrongAmount)
+console.log(correctAmount)
 
 //if a wrong letter is clicked show one of the body parts at random
 //remove from list so it cannot repeat
