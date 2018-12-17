@@ -196,10 +196,3 @@ $(document).ready(function () {
     countWrongGuesses()
     hideBodyParts()
 })
-
-console.log(wrongAmount)
-// console.log(correctAmount)
-
-//if a wrong letter is clicked show one of the body parts at random
-//remove from list so it cannot repeat
-//add 1 to the wrong amount

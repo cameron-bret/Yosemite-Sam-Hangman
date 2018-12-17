@@ -60,15 +60,6 @@ body {
     left: 470px;
 }
 
-/* #hangingRope3 {
-    max-width: 10%;
-    max-height: 10%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-} */
-
 .yosemiteSam_winning {
     display: flex;
     height: 530px;
@@ -159,17 +150,6 @@ body {
     left: 338px;
 }
 
-/* #losingBodyAlternate {
-    position: absolute;
-    max-width: 35%;
-    max-height: 35%;
-    top: 263px;
-    right: 0;
-    bottom: 0;
-    left: 363px;
-    z-index: 2;
-} */
-
 #losingBodyAlternate2 {
     position: absolute;
     max-width: 39%;
@@ -238,13 +218,6 @@ body {
     left: 332px;
     z-index: 1;
 }
-
-/* #losingHead {
-    top: 0;
-    right: 30;
-    bottom: 0;
-    left: 0;
-} */
 
 .losingSpeechBubble {
     display: flex;
