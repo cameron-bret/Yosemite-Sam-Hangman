@@ -16,4 +16,5 @@ This is a simple game of hangman! Hangman is a guessing game where you must sele
 
 ** Below is a list of technologies/libraries/frameworks and resources... think of this section as a citation of sources **
 
-** jQuery, Bootstrap, Pexel.com (stock images), 
+** jQuery, Bootstrap, Pexel.com (stock images), Rosewood fonts
+Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe Originals., 
