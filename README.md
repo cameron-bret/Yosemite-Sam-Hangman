@@ -4,20 +4,25 @@ This is a simple game of hangman! Yosemite Sam Hangman is a guessing game where 
 
 **Below is a link to the game itself**
 
-** add a link to the game here **
+https://cameron-bret.github.io/hangman/
 
 **Below is a link to the Trello Board**
 
-** https://trello.com/b/b27rfMm7/c-bret-nichols-hangman-game  **
+https://trello.com/b/b27rfMm7/c-bret-nichols-hangman-game
 
 **Below is a link to the wireframe for the game**
 
-** images for wireframes go here **
+![wire frame 1](hangman/wireframe/IMG_20181214_112304553.jpg)
+![wire frame 2](hangman/wireframe/IMG_20181214_112313639.jpg)
+![wire frame 3](hangman/wireframe/IMG_20181214_112328159.jpg)
+![wire frame 4](hangman/wireframe/IMG_20181214_112341068.jpg)
+![wire frame 5](hangman/wireframe/IMG_20181214_112350384.jpg)
+![wire frame 6](hangman/wireframe/IMG_20181214_112407171.jpg)
 
 **Below is a list of technologies/libraries/frameworks and resources... think of this section as a citation of sources**
 
 jQuery, Bootstrap, Pexel.com (stock images), Rosewood fonts
-Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe Originals., asked a question on Stack Overflow and was answered by Tina Holly https://stackoverflow.com/questions/53807898/show-item-at-random-from-one-array-when-another-separate-item-in-a-different-arr , 
+Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe Originals., asked a question on Stack Overflow and was answered by Tina Holly https://stackoverflow.com/questions/53807898/show-item-at-random-from-one-array-when-another-separate-item-in-a-different-arr
 
 **Below is a list of goals for version 2**
 

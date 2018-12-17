@@ -199,7 +199,7 @@ $(document).ready(function () {
 })
 
 console.log(wrongAmount)
-console.log(correctAmount)
+// console.log(correctAmount)
 
 //if a wrong letter is clicked show one of the body parts at random
 //remove from list so it cannot repeat
