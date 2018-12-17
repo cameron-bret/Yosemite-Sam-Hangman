@@ -157,19 +157,26 @@ let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLette
 let bodyPartsArray = ["#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
 let correctLettersArray = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
 
-//when a wrong letter is clicked show one of the body parts at random
+function watchForWrongGuesses() {
+    let wrongLettersSelectors = wrongLettersArray.join(', ')
+    $(wrongLettersSelectors).on('click', function () {
+        let bodyPart = bodyPartsArray.pop()
+        $(bodyPart).show()
+        wrongAmount++
+        $('#wrongCounter').text(wrongAmount)
+    })
+}
+
+function hideAllBodyParts() {
+    let bodyPartsSelector = bodyPartsArray.join(', ')
+    $(bodyPartsSelector).hide()
+}
+
+$(document).ready(function () {
+    hideAllBodyParts()
+    watchForWrongGuesses()
+})
+
+//if a wrong letter is clicked show one of the body parts at random
 //remove from list so it cannot repeat
 //add 1 to the wrong amount
-
-
-
-
-
-
-
-
-// function wrongGuess() {
-//     $(wrongLettersArray).on('click', function () {
-//         $(bodyParts).show()
-//     })
-// }
