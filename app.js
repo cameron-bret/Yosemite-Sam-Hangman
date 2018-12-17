@@ -146,7 +146,6 @@ $("#alphabetLetterZ").on('click', function () {
     $("#alphabetLetterZ").hide()
 })
 
-
 $(".yosemiteSam_winning").hide()
 $(".winningSpeechBubble").hide()
 $(".winningSpeechText").hide()
