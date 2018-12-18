@@ -1,5 +1,3 @@
-$("#correctLetterP").hide()
-
 $("#alphabetLetterP").on('click', function () {
     $("#correctLetterP").fadeIn()
 })
@@ -7,8 +5,6 @@ $("#alphabetLetterP").on('click', function () {
 $("#alphabetLetterP").on('click', function () {
     $("#alphabetLetterP").hide()
 })
-
-$("#correctLetterI").hide()
 
 $("#alphabetLetterI").on('click', function () {
     $("#correctLetterI").fadeIn()
@@ -18,8 +14,6 @@ $("#alphabetLetterI").on('click', function () {
     $("#alphabetLetterI").hide()
 })
 
-$("#correctLetterS").hide()
-
 $("#alphabetLetterS").on('click', function () {
     $("#correctLetterS").fadeIn()
 })
@@ -27,8 +21,6 @@ $("#alphabetLetterS").on('click', function () {
 $("#alphabetLetterS").on('click', function () {
     $("#alphabetLetterS").hide()
 })
-
-$("#correctLetterT").hide()
 
 $("#alphabetLetterT").on('click', function () {
     $("#correctLetterT").fadeIn()
@@ -38,8 +30,6 @@ $("#alphabetLetterT").on('click', function () {
     $("#alphabetLetterT").hide()
 })
 
-$("#correctLetterO").hide()
-
 $("#alphabetLetterO").on('click', function () {
     $("#correctLetterO").fadeIn()
 })
@@ -47,8 +37,6 @@ $("#alphabetLetterO").on('click', function () {
 $("#alphabetLetterO").on('click', function () {
     $("#alphabetLetterO").hide()
 })
-
-$("#correctLetterL").hide()
 
 $("#alphabetLetterL").on('click', function () {
     $("#correctLetterL").fadeIn()
@@ -138,22 +126,18 @@ $("#alphabetLetterZ").on('click', function () {
     $("#alphabetLetterZ").hide()
 })
 
-// $(".yosemiteSam_winning").hide()
-// $(".winningSpeechBubble").hide()
-// $(".winningSpeechText").hide()
-
 let wrongAmount = 0
 let correctAmount = 0
-let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
-let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
-let correctLettersArray = ["#alphabetLetterP", "#alphabetLetterI", "#alphabetLetterS", "#alphabetLetterT", "#alphabetLetterO", "#alphabetLetterL"]
+let wrongLettersButtonsArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
+let correctLettersButtonsArray = ["#alphabetLetterP", "#alphabetLetterI", "#alphabetLetterS", "#alphabetLetterT", "#alphabetLetterO", "#alphabetLetterL"]
+let correctLettersAnswer = ["#correctLetterP", "#correctLetterI", "#correctLetterS", "#correctLetterT", "#correctLetterO", "#correctLetterL"]
 let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", ".winningSpeechText"]
+let loseScreenArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
 
 function countWrongGuesses() {
-    let wrongLettersSelectors = wrongLettersArray.join(', ')
-    // let LosingScreen = finalLosingArray.join(', ')
+    let wrongLettersSelectors = wrongLettersButtonsArray.join(', ')
     $(wrongLettersSelectors).on('click', function () {
-        let bodyPart = bodyPartsArray.pop()
+        let bodyPart = loseScreenArray.pop()
         $(bodyPart).fadeIn()
         if (wrongAmount === 6) {
             swal("So sad, too bad, you lost!")
@@ -164,7 +148,7 @@ function countWrongGuesses() {
 }
 
 function countCorrectGuesses() {
-    let correctLettersSelectors = correctLettersArray.join(', ')
+    let correctLettersSelectors = correctLettersButtonsArray.join(', ')
     $(correctLettersSelectors).on('click', function () {
         if (correctAmount === 5) {
             $(".yosemiteSam_winning").fadeIn()
@@ -177,19 +161,25 @@ function countCorrectGuesses() {
     })
 }
 
+function hideCorrectAnswers() {
+    let correctAnswerSelector = correctLettersAnswer.join(', ')
+    $(correctAnswerSelector).hide()
+}
+
 function hideWinScreen() {
     let winScreenSelector = winScreenArray.join(', ')
     $(winScreenSelector).hide()
 }
 
 function hideBodyParts() {
-    let bodyPartsSelector = bodyPartsArray.join(', ')
+    let bodyPartsSelector = loseScreenArray.join(', ')
     $(bodyPartsSelector).hide()
 }
 
 $(document).ready(function () {
     countCorrectGuesses()
     countWrongGuesses()
+    hideCorrectAnswers()
     hideWinScreen()
     hideBodyParts()
 })
