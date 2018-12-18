@@ -15,11 +15,8 @@ function countWrongGuesses() {
         let bodyPart = loseScreenArray.pop()
         $(bodyPart).fadeIn()
         //tracking the number of wrong guesses and displaying the losing screen upon reaching 6 wrong guesses
-        if (wrongAmount === 6 && correctAmount !== 5) {
-            swal("So sad, too bad, you lost!")
-        }
-        if (wrongAmount === 7) {
-            location.reload()
+        if (wrongAmount === 6) {
+            setTimeout(location.reload.bind(location), 3000)
         }
         //incrementally increases the number of wrong guesses by 1 and puts that number into the wrongAmount variable
         wrongAmount++
@@ -35,7 +32,7 @@ function countCorrectGuesses() {
             $(".yosemiteSam_winning").fadeIn()
             $(".winningSpeechText").fadeIn()
             $(".winningSpeechBubble").fadeIn()
-            // swal("WOW! Good job! You won!")
+            setTimeout(location.reload.bind(location), 3000)
         }
         correctAmount++
         $('#correctCounter').text(correctAmount)
