@@ -150,15 +150,6 @@ $(".yosemiteSam_winning").hide()
 $(".winningSpeechBubble").hide()
 $(".winningSpeechText").hide()
 
-$("#losingBody").hide()
-$("#losingTorso").hide()
-$("#losingRightArm").hide()
-$("#losingLeftArm").hide()
-$("#losingRightLeg").hide()
-$("#losingLeftLeg").hide()
-// $(".losingSpeechBubble").hide()
-// $(".losingSpeechText").hide()
-
 function countWrongGuesses() {
     let wrongLettersSelectors = wrongLettersArray.join(', ')
     // let LosingScreen = finalLosingArray.join(', ')
@@ -166,7 +157,7 @@ function countWrongGuesses() {
         let bodyPart = bodyPartsArray.pop()
         $(bodyPart).fadeIn()
         if (wrongAmount === 6) {
-            swal({})("So sad, too bad, you lost!")
+            swal("So sad, too bad, you lost!")
         }
         wrongAmount++
         $('#wrongCounter').text(wrongAmount)
