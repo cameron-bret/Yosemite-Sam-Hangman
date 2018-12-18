@@ -12,7 +12,7 @@ https://trello.com/b/b27rfMm7/c-bret-nichols-hangman-game
 
 **Below is a link to the wireframe images for the game**
 
-![wire frame 1](hangman/wireframe/IMG_20181214_112304553.jpg)
+![wire frame 1](wireframe/IMG_20181214_112304553.jpg)
 ![wire frame 2](hangman/wireframe/IMG_20181214_112313639.jpg)
 ![wire frame 3](hangman/wireframe/IMG_20181214_112328159.jpg)
 ![wire frame 4](hangman/wireframe/IMG_20181214_112341068.jpg)
@@ -34,11 +34,14 @@ version 2 goal: add more playable words.
 version 2 goal: add flavicon to site.
 
 **Special Thanks**
+
 Daniel Mishael
 Conrad Casper
 Andrew McIntosh
 William Njie
 JB Watson
 Shalain Deramus
+Spencer Merryman
+Noah Harvey
 
 for inspiration, motivation, and guidance along the way!
