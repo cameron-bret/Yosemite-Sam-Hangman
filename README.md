@@ -18,11 +18,13 @@ https://trello.com/b/b27rfMm7/c-bret-nichols-hangman-game
 ![wire frame 4](wireframe/IMG_20181214_112341068.jpg)
 ![wire frame 5](wireframe/IMG_20181214_112350384.jpg)
 ![wire frame 6](wireframe/IMG_20181214_112407171.jpg)
+![wire frame 7](wireframes2/winning_screen.png)
+![wire frame 8](wireframes2/winning_screen.png)
 
 **Below is a list of technologies/libraries/frameworks and resources... think of this section as a citation of sources**
 
 jQuery, Bootstrap, Pexel.com (stock images), Rosewood fonts
-Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe Originals., my Stack Overflow question was answered by Tina Holly https://stackoverflow.com/questions/53807898/show-item-at-random-from-one-array-when-another-separate-item-in-a-different-arr , sweetalert.js
+Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe Originals., I asked a question on Stack Overflow and was answered by Tina Holly https://stackoverflow.com/questions/53807898/show-item-at-random-from-one-array-when-another-separate-item-in-a-different-arr , sweetalert.js
 
 **Below is a list of goals for version 2**
 
