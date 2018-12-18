@@ -1,11 +1,3 @@
-let wrongAmount = 0
-let correctAmount = 0
-let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
-let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
-let correctLettersArray = ["#alphabetLetterP", "#alphabetLetterI", "#alphabetLetterS", "#alphabetLetterT", "#alphabetLetterO", "#alphabetLetterL"]
-let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", "#.winningSpeechText"]
-// let finalLosingArray = ["#losingBody", "#losingSpeechBubble", "#losingSpeechText"]
-
 $("#correctLetterP").hide()
 
 $("#alphabetLetterP").on('click', function () {
@@ -146,9 +138,16 @@ $("#alphabetLetterZ").on('click', function () {
     $("#alphabetLetterZ").hide()
 })
 
-$(".yosemiteSam_winning").hide()
-$(".winningSpeechBubble").hide()
-$(".winningSpeechText").hide()
+// $(".yosemiteSam_winning").hide()
+// $(".winningSpeechBubble").hide()
+// $(".winningSpeechText").hide()
+
+let wrongAmount = 0
+let correctAmount = 0
+let wrongLettersArray = ["#alphabetLetterA", "#alphabetLetterB", "#alphabetLetterC", "#alphabetLetterD", "#alphabetLetterE", "#alphabetLetterF", "#alphabetLetterG", "#alphabetLetterH", "#alphabetLetterJ", "#alphabetLetterK", "#alphabetLetterM", "#alphabetLetterN", "#alphabetLetterQ", "#alphabetLetterR", "#alphabetLetterU", "#alphabetLetterV", "#alphabetLetterW", "#alphabetLetterX", "#alphabetLetterY", "#alphabetLetterZ"]
+let bodyPartsArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
+let correctLettersArray = ["#alphabetLetterP", "#alphabetLetterI", "#alphabetLetterS", "#alphabetLetterT", "#alphabetLetterO", "#alphabetLetterL"]
+let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", ".winningSpeechText"]
 
 function countWrongGuesses() {
     let wrongLettersSelectors = wrongLettersArray.join(', ')
@@ -178,6 +177,11 @@ function countCorrectGuesses() {
     })
 }
 
+function hideWinScreen() {
+    let winScreenSelector = winScreenArray.join(', ')
+    $(winScreenSelector).hide()
+}
+
 function hideBodyParts() {
     let bodyPartsSelector = bodyPartsArray.join(', ')
     $(bodyPartsSelector).hide()
@@ -186,5 +190,6 @@ function hideBodyParts() {
 $(document).ready(function () {
     countCorrectGuesses()
     countWrongGuesses()
+    hideWinScreen()
     hideBodyParts()
 })
