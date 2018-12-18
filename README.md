@@ -22,7 +22,7 @@ https://trello.com/b/b27rfMm7/c-bret-nichols-hangman-game
 **Below is a list of technologies/libraries/frameworks and resources... think of this section as a citation of sources**
 
 jQuery, Bootstrap, Pexel.com (stock images), Rosewood fonts
-Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe Originals., my Stack Overflow question was answered by Tina Holly https://stackoverflow.com/questions/53807898/show-item-at-random-from-one-array-when-another-separate-item-in-a-different-arr , sweetalert.js
+Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe Originals., I asked a question on Stack Overflow and was answered by Tina Holly https://stackoverflow.com/questions/53807898/show-item-at-random-from-one-array-when-another-separate-item-in-a-different-arr , sweetalert.js
 
 **Below is a list of goals for version 2**
 

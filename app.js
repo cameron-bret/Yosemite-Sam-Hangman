@@ -26,7 +26,7 @@ function countCorrectGuesses() {
             $(".yosemiteSam_winning").fadeIn()
             $(".winningSpeechText").fadeIn()
             $(".winningSpeechBubble").fadeIn()
-            swal("WOW! Good job! You won!")
+            // swal("WOW! Good job! You won!")
         }
         correctAmount++
         $('#correctCounter').text(correctAmount)
