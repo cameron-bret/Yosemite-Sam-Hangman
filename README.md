@@ -13,11 +13,11 @@ https://trello.com/b/b27rfMm7/c-bret-nichols-hangman-game
 **Below is a link to the wireframe images for the game**
 
 ![wire frame 1](wireframe/IMG_20181214_112304553.jpg)
-![wire frame 2](hangman/wireframe/IMG_20181214_112313639.jpg)
-![wire frame 3](hangman/wireframe/IMG_20181214_112328159.jpg)
-![wire frame 4](hangman/wireframe/IMG_20181214_112341068.jpg)
-![wire frame 5](hangman/wireframe/IMG_20181214_112350384.jpg)
-![wire frame 6](hangman/wireframe/IMG_20181214_112407171.jpg)
+![wire frame 2](wireframe/IMG_20181214_112313639.jpg)
+![wire frame 3](wireframe/IMG_20181214_112328159.jpg)
+![wire frame 4](wireframe/IMG_20181214_112341068.jpg)
+![wire frame 5](wireframe/IMG_20181214_112350384.jpg)
+![wire frame 6](wireframe/IMG_20181214_112407171.jpg)
 
 **Below is a list of technologies/libraries/frameworks and resources... think of this section as a citation of sources**
 
@@ -41,6 +41,8 @@ Andrew McIntosh
 William Njie
 JB Watson
 Shalain Deramus
+Cameron Gunter
+Stanley Kimani
 Spencer Merryman
 Noah Harvey
 
