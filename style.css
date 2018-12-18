@@ -140,7 +140,7 @@ body {
     z-index: 1;
 }
 
-#losingBody {
+/* #losingBody {
     position: absolute;
     max-width: 50%;
     max-height: 50%;
@@ -148,7 +148,7 @@ body {
     right: 0;
     bottom: 0;
     left: 338px;
-}
+} */
 
 #losingBodyAlternate2 {
     position: absolute;
@@ -197,7 +197,6 @@ body {
 
 #losingRightArm {
     position: absolute;
-
     max-width: 17%;
     max-height: 17%;
     top: 363px;
@@ -209,7 +208,6 @@ body {
 
 #losingLeftArm {
     position: absolute;
-
     max-width: 18%;
     max-height: 18%;
     top: 362px;
@@ -245,7 +243,7 @@ body {
     left: 30px;
 }
 
-.scoreboardContainer {
+/* .scoreboardContainer {
     display: block;
     max-width: 5%;
     max-height: 5%;
@@ -362,7 +360,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-}
+} */
 
 .correctLettersContainer {
     max-width: 50%;
