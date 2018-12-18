@@ -1,6 +1,6 @@
 **PROJECT DESCRIPTION**
 
-This is a simple game of hangman! Yosemite Sam Hangman is a guessing game where you must select letters of the alphabet to complete puzzle of a missing word. 
+This is a simple game of hangman! Yosemite Sam Hangman is a guessing game where you must select letters of the alphabet to complete puzzle of a missing word.
 
 **Below is a link to the game itself**
 
@@ -26,12 +26,14 @@ Designed by Carl Crossgrove, Carol Twombly, and Kim Buker Chansler. From Adobe O
 
 **Below is a list of goals for version 2**
 
+version 2 goal: decrease image sizes and resolutions to increase load time.
 version 2 goal: make a tumble weed blow by periodically.
 version 2 goal: make the noose swing.
 version 2 goal: scoreboard with number of won, lost, and wrong displayed to side.
 version 2 goal: update and modify end game functionality.
 version 2 goal: add more playable words.
 version 2 goal: add flavicon to site.
+version 2 goal: add interactive sounds.
 
 **Special Thanks**
 

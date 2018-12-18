@@ -1,13 +1,26 @@
-$("#alphabetLetterP").on('click', function () {
-    $("#correctLetterP").fadeIn()
-})
+function correctAnswersAppear() {
+    $("#alphabetLetterP").on('click', function () {
+        $("#correctLetterP").fadeIn()
+    })
+    $("#alphabetLetterI").on('click', function () {
+        $("#correctLetterI").fadeIn()
+    })
+    $("#alphabetLetterS").on('click', function () {
+        $("#correctLetterS").fadeIn()
+    })
+    $("#alphabetLetterT").on('click', function () {
+        $("#correctLetterT").fadeIn()
+    })
+    $("#alphabetLetterO").on('click', function () {
+        $("#correctLetterO").fadeIn()
+    })
+    $("#alphabetLetterL").on('click', function () {
+        $("#correctLetterL").fadeIn()
+    })
+}
 
 $("#alphabetLetterP").on('click', function () {
     $("#alphabetLetterP").hide()
-})
-
-$("#alphabetLetterI").on('click', function () {
-    $("#correctLetterI").fadeIn()
 })
 
 $("#alphabetLetterI").on('click', function () {
@@ -15,15 +28,7 @@ $("#alphabetLetterI").on('click', function () {
 })
 
 $("#alphabetLetterS").on('click', function () {
-    $("#correctLetterS").fadeIn()
-})
-
-$("#alphabetLetterS").on('click', function () {
     $("#alphabetLetterS").hide()
-})
-
-$("#alphabetLetterT").on('click', function () {
-    $("#correctLetterT").fadeIn()
 })
 
 $("#alphabetLetterT").on('click', function () {
@@ -31,15 +36,7 @@ $("#alphabetLetterT").on('click', function () {
 })
 
 $("#alphabetLetterO").on('click', function () {
-    $("#correctLetterO").fadeIn()
-})
-
-$("#alphabetLetterO").on('click', function () {
     $("#alphabetLetterO").hide()
-})
-
-$("#alphabetLetterL").on('click', function () {
-    $("#correctLetterL").fadeIn()
 })
 
 $("#alphabetLetterL").on('click', function () {
@@ -174,4 +171,5 @@ $(document).ready(function () {
     countCorrectGuesses()
     countWrongGuesses()
     hiddenItems()
+    correctAnswersAppear()
 })
