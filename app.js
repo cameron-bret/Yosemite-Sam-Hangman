@@ -166,7 +166,7 @@ function countWrongGuesses() {
         let bodyPart = bodyPartsArray.pop()
         $(bodyPart).fadeIn()
         if (wrongAmount === 6) {
-            swal("So sad, too bad, you lost, click OK to try again!")
+            swal({})("So sad, too bad, you lost!")
         }
         wrongAmount++
         $('#wrongCounter').text(wrongAmount)
@@ -180,7 +180,7 @@ function countCorrectGuesses() {
             $(".yosemiteSam_winning").fadeIn()
             $(".winningSpeechText").fadeIn()
             $(".winningSpeechBubble").fadeIn()
-            swal("WOW! Good job! You won! Click OK to play again!")
+            swal("WOW! Good job! You won!")
         }
         correctAmount++
         $('#correctCounter').text(correctAmount)
