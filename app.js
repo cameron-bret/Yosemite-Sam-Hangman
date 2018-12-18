@@ -6,19 +6,25 @@ let correctLettersAnswer = ["#correctLetterP", "#correctLetterI", "#correctLette
 let winScreenArray = [".yosemiteSam_winning", ".winningSpeechBubble", ".winningSpeechText"]
 let loseScreenArray = ["#losingBodyAlternate2", "#losingTorso", "#losingRightArm", "#losingLeftArm", "#losingRightLeg", "#losingLeftLeg"]
 
+//track the number of incorrect guesses and populate a body part for each wrong guess, then display the losing screen
 function countWrongGuesses() {
+    //selects all items in the wrongLettersButtonArray and returns them as a string separated by a comma and a space
     let wrongLettersSelectors = wrongLettersButtonsArray.join(', ')
+    //when one of the wrong letter is clicked this function will 'fade in' the last item of the loseScreenArray and remove it from the array 
     $(wrongLettersSelectors).on('click', function () {
         let bodyPart = loseScreenArray.pop()
         $(bodyPart).fadeIn()
+        //tracking the number of wrong guesses and displaying the losing screen upon reaching 6 wrong guesses
         if (wrongAmount === 6) {
             swal("So sad, too bad, you lost!")
         }
+        //incrementally increases the number of wrong guesses by 1 and puts that number into the wrongAmount variable
         wrongAmount++
         $('#wrongCounter').text(wrongAmount)
     })
 }
 
+//track the number of correct guesses and display the winning screen
 function countCorrectGuesses() {
     let correctLettersSelectors = correctLettersButtonsArray.join(', ')
     $(correctLettersSelectors).on('click', function () {
@@ -33,6 +39,7 @@ function countCorrectGuesses() {
     })
 }
 
+//hide initial images so that they can 'appear' when called upon
 function hiddenItems() {
     let correctAnswerSelector = correctLettersAnswer.join(', ')
     let winScreenSelector = winScreenArray.join(', ')
@@ -42,6 +49,7 @@ function hiddenItems() {
     $(bodyPartsSelector).hide()
 }
 
+//make each letter of the alphabet that is a correct answer populate onto the answer bar
 function correctAnswersAppear() {
     $("#alphabetLetterP").on('click', function () {
         $("#correctLetterP").fadeIn()
@@ -63,6 +71,7 @@ function correctAnswersAppear() {
     })
 }
 
+//make each letter of the alphabet disappear after it has been clicked so that it cannot be selected again
 function alphabetDisappear() {
     $("#alphabetLetterP").on('click', function () {
         $("#alphabetLetterP").hide()
@@ -143,6 +152,7 @@ function alphabetDisappear() {
         $("#alphabetLetterZ").hide()
     })
 
+    //using the ready method to make all listed functions run immediately on page load
     $(document).ready(function () {
         countCorrectGuesses()
         countWrongGuesses()
