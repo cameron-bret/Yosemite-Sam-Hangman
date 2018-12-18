@@ -161,25 +161,17 @@ function countCorrectGuesses() {
     })
 }
 
-function hideCorrectAnswers() {
+function hiddenItems() {
     let correctAnswerSelector = correctLettersAnswer.join(', ')
-    $(correctAnswerSelector).hide()
-}
-
-function hideWinScreen() {
     let winScreenSelector = winScreenArray.join(', ')
-    $(winScreenSelector).hide()
-}
-
-function hideBodyParts() {
     let bodyPartsSelector = loseScreenArray.join(', ')
+    $(correctAnswerSelector).hide()
+    $(winScreenSelector).hide()
     $(bodyPartsSelector).hide()
 }
 
 $(document).ready(function () {
     countCorrectGuesses()
     countWrongGuesses()
-    hideCorrectAnswers()
-    hideWinScreen()
-    hideBodyParts()
+    hiddenItems()
 })
