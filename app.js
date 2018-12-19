@@ -15,7 +15,7 @@ function countWrongGuesses() {
         let bodyPart = loseScreenArray.pop()
         $(bodyPart).fadeIn()
         //tracking the number of wrong guesses and displaying the losing screen upon reaching 6 wrong guesses
-        if (wrongAmount === 6) {
+        if (wrongAmount === 5) {
             setTimeout(location.reload.bind(location), 3000)
         }
         //incrementally increases the number of wrong guesses by 1 and puts that number into the wrongAmount variable
