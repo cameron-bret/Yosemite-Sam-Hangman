@@ -4,7 +4,7 @@ This is a simple game of hangman! Yosemite Sam Hangman is a guessing game where 
 
 **Below is a link to the game itself**
 
-https://cameron-bret.github.io/hangman/
+https://cameron-bret.github.io/Yosemite-Sam-Hangman/
 
 **Below is a link to the Trello Board**
 
